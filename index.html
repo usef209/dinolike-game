@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Jump Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-info">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="high-score">High Score: <span id="highScore">0</span></div>
+        </div>
+        <div id="game-over" class="hidden">
+            <h2>Game Over!</h2>
+            <p>Press Space or tap to restart</p>
+        </div>
+        <div id="game-start" class="instructions">
+            <p>Press Space or tap to jump</p>
+        </div>
+        <canvas id="game-canvas"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
